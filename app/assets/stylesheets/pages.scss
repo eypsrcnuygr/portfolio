@@ -37,6 +37,10 @@ $fa-font-path: '@fortawesome/fontawesome-free/webfonts';
   & .article-3 {
     padding-top: 10%;
     padding-bottom: 2%;
+
+    & .labels {
+      height: 40px;
+    }
   }
 
 }
