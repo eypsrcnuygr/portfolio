@@ -9,3 +9,34 @@ $fa-font-path: '@fortawesome/fontawesome-free/webfonts';
 @import '@fortawesome/fontawesome-free/scss/regular';
 @import '@fortawesome/fontawesome-free/scss/brands';
 @import '@fortawesome/fontawesome-free/scss/v4-shims';
+
+.home-main {
+  background-color: #090824;
+  top: 72px;
+
+  & hr {
+    border-color: red;
+    width: 50%;
+  }
+
+  & .disabled {
+    &:hover, :focus {
+      text-decoration: none !important;
+      color: white !important;
+    }
+  }
+
+  & .article-1 {
+    padding-top: 10%;
+
+    & p {
+      padding-top: 10%;
+    }
+  }
+
+  & .article-3 {
+    padding-top: 10%;
+    padding-bottom: 2%;
+  }
+
+}
