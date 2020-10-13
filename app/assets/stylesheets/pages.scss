@@ -9,6 +9,7 @@ $fa-font-path: '@fortawesome/fontawesome-free/webfonts';
 @import '@fortawesome/fontawesome-free/scss/regular';
 @import '@fortawesome/fontawesome-free/scss/brands';
 @import '@fortawesome/fontawesome-free/scss/v4-shims';
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@1,500&family=Roboto:wght@500&display=swap');
 
 .home-main {
   background-color: #090824;
@@ -31,6 +32,7 @@ $fa-font-path: '@fortawesome/fontawesome-free/webfonts';
 
     & p {
       padding-top: 10%;
+      font-family: 'Roboto', sans-serif;
     }
   }
 
