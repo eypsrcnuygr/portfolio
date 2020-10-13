@@ -42,5 +42,14 @@ $fa-font-path: '@fortawesome/fontawesome-free/webfonts';
       height: 40px;
     }
   }
+}
 
+@media only screen and (max-device-width: 767px) {
+  body {
+    font-size: x-large;
+
+    & .heading {
+      margin-top: 15px;
+    }
+  }
 }
