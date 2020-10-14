@@ -27,6 +27,13 @@ $fa-font-path: '@fortawesome/fontawesome-free/webfonts';
     }
   }
 
+  & .disabled-2 {
+    &:hover, :focus {
+      text-decoration: none !important;
+      color: rgb(199, 189, 189) !important;
+    }
+  }
+
   & .article-1 {
     padding-top: 10%;
 
