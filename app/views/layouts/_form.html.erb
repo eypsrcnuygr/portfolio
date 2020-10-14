@@ -1,0 +1,19 @@
+
+<%= form_for @contact, url: contacts_path do |f| %>
+<div>
+  <%= f.text_field  :name, required: true, class: "contacts-form-text-area", placeholder: "Your Name" %><br>
+  <%= f.text_field :email, required: true, class: "contacts-form-text-area", placeholder: "Your E-mail Address" %><br>
+  <%= f.text_area :message,
+                  rows: 8,
+                  cols: 40,
+                  required: true,
+                  class: "contacts-form-text-area",
+                  placeholder: "Your Message"%><br>
+
+  <div class= "hidden d-none">
+    <%= f.text_field :nickname %>
+  </div>
+
+  <%= f.submit 'Send Message', class: 'btn-send' %>
+</div>
+<% end %>
