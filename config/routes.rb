@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'contacts/index'
+  resources :contact, only: %i[index new create]
   root 'pages#home'
-  get 'download_pdf', to: "pages#download_pdf"
+  get 'download_pdf', to: 'pages#download_pdf'
 end
