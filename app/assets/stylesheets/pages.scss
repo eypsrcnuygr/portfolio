@@ -39,7 +39,7 @@ $fa-font-path: '@fortawesome/fontawesome-free/webfonts';
   }
 
   & .article-1 {
-    padding-top: 6%;
+    padding-top: 7%;
 
     & p {
       padding-top: 10%;
@@ -91,7 +91,7 @@ $fa-font-path: '@fortawesome/fontawesome-free/webfonts';
     }
 
     & h3, p, a, h5, h2 {
-      font-size: 2.4rem;
+      font-size: 2.4rem !important;
     }
 
     & .article-x {
@@ -121,7 +121,7 @@ $fa-font-path: '@fortawesome/fontawesome-free/webfonts';
 
     & form {
       .name, .message {
-        font-size: 2.2rem;
+        font-size: 2.2rem !important;
       }
 
       .button-send {
@@ -248,4 +248,10 @@ $fa-font-path: '@fortawesome/fontawesome-free/webfonts';
       }
     }
   }
+}
+
+.flash-modified {
+  position: absolute;
+  top: 72px;
+  z-index: 2;
 }
