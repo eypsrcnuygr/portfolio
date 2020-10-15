@@ -1,18 +1,18 @@
-<%= form_with model: @contact, url: contact_path, remote: true do |f| %>
-    <div class="text-light text-center mb-4 px-4">
+<%= form_with model: @contact, url: contact_path, class: 'text-center', remote: true do |f| %>
+    <div class="text-light text-center mb-4 px-4 form-div mx-auto">
       <div class="form-group">
          <%= f.label :name %></br>
-        <%= f.text_field  :name, required: true, class: "form-control " %></br>
+        <%= f.text_field  :name, required: true, class: "form-control text-center name", id: 'form-name' %></br>
       </div>
        
       <div class="form-group">
         <%= f.label :email %></br>
-        <%= f.text_field :email, required: true, class: "form-control" %></br>
+        <%= f.text_field :email, required: true, class: "form-control text-center name" %></br>
       </div>
         
       <div class="form-group">
          <%= f.label :message %></br>
-      <%= f.text_area :message, rows: 8, cols: 40, required: true, class: "form-control",
+      <%= f.text_area :message, rows: 8, cols: 40, required: true, class: "form-control message",
                         placeholder: "Send me a message"%></br>
       </div>
      
@@ -24,7 +24,7 @@
       </div>
      
 
-      <%= f.submit 'Send Message', class: 'btn btn-primary' %>
+      <%= f.submit 'Send Message', class: 'btn btn-primary button-send' %>
     </div>
   <% end %>
  

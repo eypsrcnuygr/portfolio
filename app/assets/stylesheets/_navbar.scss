@@ -8,6 +8,7 @@ body {
     background-color:#191765;
     color: white;
     z-index: 2;
+    overflow-x: hidden !important;
 
     & .disabled {
       &:hover, :focus {
@@ -17,10 +18,21 @@ body {
     }
     & a {
       color: white;
-
+      transition: color 2s cubic-bezier(0.2, 0.7, 1, 0.3);
       &:hover {
         color: red;
       }
     }
   }
+}
+
+@media only screen and (max-device-width: 767px) {
+ body {
+  & nav {
+    height: 120px;
+    & a {
+      font-size: 1.5rem;
+    }
+  } 
+ }
 }
