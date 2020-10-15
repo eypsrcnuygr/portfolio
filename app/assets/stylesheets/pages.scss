@@ -13,7 +13,6 @@ $fa-font-path: '@fortawesome/fontawesome-free/webfonts';
 
 .home-main {
   background-color: #090824;
-  top: 72px;
   & hr {
     border-color: red;
     width: 50%;
@@ -78,7 +77,8 @@ $fa-font-path: '@fortawesome/fontawesome-free/webfonts';
   body {
 
     & .article-1 {
-      padding-top: 22% !important;
+      position: relative;
+      padding-top: 42% !important;
 
       & h1 {
         font-size: 4rem;
@@ -127,6 +127,124 @@ $fa-font-path: '@fortawesome/fontawesome-free/webfonts';
       .button-send {
         width: 300px;
         font-size: 2.4rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 989px) and (min-width: 768px) {
+  body {
+
+    & .article-1 {
+      position: relative;
+      padding-top: 30% !important;
+
+      & h1 {
+        font-size: 3rem;
+      }
+      
+      & .image {
+        width: 30%;
+        height: auto;
+      }
+    }
+
+    & h3, p, a, h5, h2 {
+      font-size: 1.5rem;
+    }
+
+    & .article-x {
+      padding-top: 10% !important;
+    }
+
+    & .button-live, .button-github{
+      width: 300px;
+      font-size: 2rem;
+    }
+
+    .button-article {
+      width: 350px;
+      font-size: 2rem;
+    }
+    & .seperator {
+      margin-top: 18%;
+    }
+   
+    & .heading {
+      margin-top: 15px;
+    }
+
+    .labels {
+      height: 60px !important;
+    }
+
+    & form {
+      .name, .message {
+        font-size: 1.5rem;
+      }
+
+      .button-send {
+        width: 300px;
+        font-size: 2rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1399px) and (min-width: 990px) {
+  body {
+
+    & .article-1 {
+      position: relative;
+      padding-top: 15% !important;
+
+      & h1 {
+        font-size: 3rem;
+      }
+      
+      & .image {
+        width: 30%;
+        height: auto;
+      }
+    }
+
+    & h3, p, a, h5, h2 {
+      font-size: 1.1rem;
+    }
+
+    & .article-x {
+      padding-top: 10% !important;
+    }
+
+    & .button-live, .button-github{
+      width: 300px;
+      font-size: 1.3rem;
+    }
+
+    .button-article {
+      width: 350px;
+      font-size: 1.3rem;
+    }
+    & .seperator {
+      margin-top: 18%;
+    }
+   
+    & .heading {
+      margin-top: 15px;
+    }
+
+    .labels {
+      height: 40px !important;
+    }
+
+    & form {
+      .name, .message {
+        font-size: 1rem;
+      }
+
+      .button-send {
+        width: 300px;
+        font-size: 1.3rem;
       }
     }
   }
