@@ -1,24 +1,37 @@
-# README
+# Eyüp Sercan UYGUR Portfolio
+Hello world, this is my portfolio<br>
+![screenshot](./public/assets/images/Screenshot.png)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Built With
+* Ruby
+* Rails
+* Bootstrap
 
-Things you may want to cover:
+## Live Link
 
-* Ruby version
+Here is the [live link](https://www.eyupsercanuygur.com/) of this project.
 
-* System dependencies
+## Authors
 
-* Configuration
+👤 **Eyüp Sercan UYGUR**
 
-* Database creation
+-   Github: [@eypsrcnuygr](https://github.com/eypsrcnuygr)
+-   Twitter: [@eypsrcnuygr](https://twitter.com/eypsrcnuygr)
+-   LinkedIn: [eypsrcnuygr](https://www.linkedin.com/in/eypsrcnuygr/)
+-   Gmail: [sercanuygur@gmail.com](sercanuygur@gmail.com)
 
-* Database initialization
+## 🤝 Contributing
 
-* How to run the test suite
+Contributions, issues and feature requests are welcome!
 
-* Services (job queues, cache servers, search engines, etc.)
+## Show your support
 
-* Deployment instructions
+Give a ⭐️ if you like this project!
 
-* ...
+## Issues
+
+For issues [check](https://github.com/eypsrcnuygr/portfolio/issues).
+
+## 📝 License
+
+This project is [MIT](lic.url) licensed.
