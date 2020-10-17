@@ -12,6 +12,8 @@ $fa-font-path: '@fortawesome/fontawesome-free/webfonts';
 @import url('https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@1,500&family=Roboto:wght@500&display=swap');
 
 .home-main {
+
+  font-family: $fa-font-path;
   background: radial-gradient(circle, rgba(94,94,94,1) 8%, rgba(49,48,85,1) 92%, rgba(48,48,50,1) 100%);
   & hr {
     border-color: red;
@@ -43,7 +45,6 @@ $fa-font-path: '@fortawesome/fontawesome-free/webfonts';
 
     & p {
       padding-top: 10%;
-      font-family: 'Roboto', sans-serif;
     }
   }
 
