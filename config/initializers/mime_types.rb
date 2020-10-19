@@ -2,5 +2,6 @@
 
 # Add new mime types for use in respond_to blocks:
 # Mime::Type.register "text/richtext", :rtf
-Mime::Type.register 'text/richtext', :woff2
-Mime::Type.register 'text/richtext', :ttf
+Mime::Type.register "woff2", :woff2
+Mime::Type.register "ttf", :ttf
+
