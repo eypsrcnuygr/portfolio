@@ -110,18 +110,6 @@ Rails.application.configure do
   # config.active_record.database_resolver = ActiveRecord::Middleware::DatabaseSelector::Resolver
   # config.active_record.database_resolver_context = ActiveRecord::Middleware::DatabaseSelector::Resolver::Session
 
-  config.action_mailer.default_url_options = { host: 'www.eyupsercanuygur.com/' }
   config.action_mailer.delivery_method = :smtp
-  config.action_mailer.perform_deliveries = true
-  config.action_mailer.raise_delivery_errors = false
-  config.action_mailer.default charset: 'utf-8'
-  config.action_mailer.smtp_settings = {
-    address: 'smtp.sendgrid.net',
-    port: 465,
-    domain: 'www.eyupsercanuygur.com/',
-    user_name: ENV['Username'],
-    password: ENV['MY_SECOND_API_KEY'],
-    authentication: 'plain',
-    enable_starttls_auto: true
-  }
+  config.action_mailer.default_url_options = { host: 'https://www.eyupsercanuygur.com/' }
 end
