@@ -1,5 +1,6 @@
 import "./App.css";
 import Typewriter from "./Typewriter";
+import { Link } from "react-router-dom";
 
 function App() {
   return (
@@ -20,22 +21,19 @@ function App() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mx-auto">
             <li className="nav-item">
-              <a
-                className="nav-link text-light"
-                target="blank"
-                href="https://github.com/eypsrcnuygr"
-              >
-                Projects
-              </a>
+              <Link className="nav-link text-light" to="/">
+                Eyüp Sercan UYGUR
+              </Link>
             </li>
             <li className="nav-item">
-              <a
-                className="nav-link text-light"
-                target="blank"
-                href="https://medium.com/@sercanuygur"
-              >
+              <Link className="nav-link text-light" to="/projects">
+                Projects
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link text-light" to="/publications">
                 Publications
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
               <a href="./CV_ENG_2_.pdf" className="nav-link text-light">
@@ -71,7 +69,12 @@ function App() {
         <h2 className="text-light">Software Developer</h2>
       </div>
       <div className="text-center pt-4 col-12 col-lg-8 mx-auto">
-        <Typewriter className="text-light" inputStrings={["I am a material scientist and a developer. Residing between Kuşadası and İstanbul, Turkey. Working as a part-time Technical Support Engineer at Microverse. Interested in music and poetry. Below are my skills. I can help you to build a product."]} />
+        <Typewriter
+          className="text-light"
+          inputStrings={[
+            "I am a material scientist and a developer. Residing between Kuşadası and İstanbul, Turkey. Working as a part-time Technical Support Engineer at Microverse. Interested in music and poetry. Below are my skills. I can help you to build a product.",
+          ]}
+        />
       </div>
       <div className="container-fluid container-lg mx-auto text-center mt-5">
         <div className="row text-center mx-auto">
@@ -139,12 +142,20 @@ function App() {
                 </a>
               </li>
               <li>
-                <a href="https://www.credential.net/b2805b3f-2003-4116-9831-f85855a5ed6e#gs.rq7gyo" target="blank" className="text-light disabled">
+                <a
+                  href="https://www.credential.net/b2805b3f-2003-4116-9831-f85855a5ed6e#gs.rq7gyo"
+                  target="blank"
+                  className="text-light disabled"
+                >
                   Rails
                 </a>
               </li>
               <li>
-                <a href="https://www.credential.net/b2805b3f-2003-4116-9831-f85855a5ed6e#gs.rq7gyo" target="blank" className="text-light disabled">
+                <a
+                  href="https://www.credential.net/b2805b3f-2003-4116-9831-f85855a5ed6e#gs.rq7gyo"
+                  target="blank"
+                  className="text-light disabled"
+                >
                   RSpec
                 </a>
               </li>
@@ -187,7 +198,7 @@ function App() {
           </div>
         </div>
       </div>
-      <footer>
+      <footer className="my-footer">
         <ul className="list-unstyled d-flex justify-content-center">
           <li>
             <a

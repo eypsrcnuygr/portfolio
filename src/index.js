@@ -1,14 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+import Projetcs from './Projects';
+import Publications from './Publications';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+     <HashRouter>
+    <Switch>
+      <Route path="/" exact render={props => <App {...props} />} />
+      <Route path="/projects" exact render={props => <Projetcs {...props} />} />
+      <Route path="/publications" exact render={props => <Publications {...props} />} />
+    </Switch>
+  </HashRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
