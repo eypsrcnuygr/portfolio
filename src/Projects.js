@@ -55,14 +55,14 @@ const Projetcs = () => (
     <article className="text-light mb-2 article-3 shadow-lg">
       <div className="container">
         <div className="row">
-          <div className="col-xl-7 col-12">
+          <div className="col-xl-5 col-12">
             <img
               src="/Screenshot1.png"
               alt="Easy-Pay"
               className="img img-fluid"
             />
           </div>
-          <div className="col-xl-5 col-12 heading d-flex flex-column justify-content-center">
+          <div className="col-xl-7 col-12 heading d-flex flex-column justify-content-center">
             <h5>Easy-Pay</h5>
             <p className="d-none d-md-block">
               You can create a user account, your own groups, and arrange your
@@ -103,10 +103,10 @@ const Projetcs = () => (
     <article className="text-light mb-2 article-3 shadow-lg">
       <div className="container">
         <div className="row">
-          <div className="col-xl-7 col-12">
+          <div className="col-xl-5 col-12">
             <img src="/Screenshot2.png" alt="Book" className="w-100" />
           </div>
-          <div className="col-xl-5 col-12 heading d-flex flex-column justify-content-center">
+          <div className="col-xl-7 col-12 heading d-flex flex-column justify-content-center">
             <h5>Book an Appointment</h5>
             <p className="d-none d-md-block">
               This is the frontend part of the Final Capstone project on
@@ -148,10 +148,10 @@ const Projetcs = () => (
     <article className="text-light mb-2 article-3 shadow-lg">
       <div className="container">
         <div className="row h-50">
-          <div className="col-xl-7 col-12 h-50">
-            <img src="/Screenshot3.png" alt="Space" className="w-100" />
+          <div className="col-xl-5 col-12 h-50">
+            <img src="/Screenshot3.png" alt="Space" className="img-fluid" />
           </div>
-          <div className="col-xl-5 col-12 heading d-flex flex-column justify-content-center">
+          <div className="col-xl-7 col-12 heading d-flex flex-column justify-content-center">
             <h5>Space Shooter Game</h5>
             <p className="d-none d-md-block">
               This is a space shooter game built with JavaScript and Phaser.The
