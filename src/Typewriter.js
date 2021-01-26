@@ -9,7 +9,7 @@ export default class Typewriter extends React.Component {
   };
 
   componentDidMount() {
-    setTimeout(
+    this.a = setTimeout(
       () =>
         this.typeWord(
           this.props.inputStrings[0],
@@ -22,6 +22,11 @@ export default class Typewriter extends React.Component {
   typeWord(word, words) {
     this.stringChecker(word, words);
   }
+
+  componentWillUnmount() {
+    clearTimeout(this.a) 
+  }
+
 
   typeWriter(string, words) {
     if (string.length === 0) {

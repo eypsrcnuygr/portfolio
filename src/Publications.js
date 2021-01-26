@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
-const Publications = () => (
-  <div>
+const Publications = () => {
+  return (<div>
     <nav className="navbar navbar-expand-lg navbar-dark mb-3">
       <button
         className="navbar-toggler text-light"
@@ -204,7 +204,7 @@ const Publications = () => (
         </li>
       </ul>
     </footer>
-  </div>
-);
+  </div>)
+};
 
 export default Publications;
