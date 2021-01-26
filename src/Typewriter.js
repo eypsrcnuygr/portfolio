@@ -31,10 +31,12 @@ export default class Typewriter extends React.Component {
       setTimeout(() => this.typeWriter(string.slice(1), words), 100);
     }
     if (this.state.typed === "I am a material scientist and a developer. Residing between Kuşadası and İstanbul, Turkey. Working as a part-time Technical Support Engineer at Microverse. Interested in music and poetry. Below are my skills. I can help you to build a product.") {
-      this.setState({
-        typed: ''
-      })
-      setTimeout(() => this.typeWord(words[0], words), 100);
+      setTimeout(() => {
+        this.setState({
+          typed: ''
+        })
+        setTimeout(() => words[0] && this.typeWord(words[0], words), 100);
+      }, 2000)
     }
   }
 
