@@ -71,7 +71,7 @@ function App() {
       </div>
       <div className="text-center pt-4">
         <p className="text-light">
-          I am a materials scientist and a developer. Residing in between
+          I am a materials scientist and a developer. Residing between
           Kuşadası and İstanbul, Turkey. Working as a part-time Technical
           Support Engineer at Microverse.
           <br /> Interested in music and poetry. Below are my skills. I can help
