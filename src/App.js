@@ -1,4 +1,5 @@
 import "./App.css";
+import Typewriter from "./Typewriter";
 
 function App() {
   return (
@@ -69,14 +70,8 @@ function App() {
       <div className="text-center pt-4">
         <h2 className="text-light">Software Developer</h2>
       </div>
-      <div className="text-center pt-4">
-        <p className="text-light">
-          I am a materials scientist and a developer. Residing between
-          Kuşadası and İstanbul, Turkey. Working as a part-time Technical
-          Support Engineer at Microverse.
-          <br /> Interested in music and poetry. Below are my skills. I can help
-          you to build a product.
-        </p>
+      <div className="text-center pt-4 w-50 mx-auto">
+        <Typewriter className="text-light" inputStrings={["I am a material scientist and a developer. Residing between Kuşadası and İstanbul, Turkey. Working as a part-time Technical Support Engineer at Microverse. Interested in music and poetry. Below are my skills. I can help you to build a product."]} />
       </div>
       <div className="container-fluid container-lg mx-auto text-center mt-5">
         <div className="row text-center mx-auto">
