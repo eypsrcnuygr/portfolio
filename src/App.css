@@ -5,6 +5,8 @@ body {
 
 .my-photo {
   width: 250px;
+  max-height: 250px;
+  object-fit: cover;
 }
 
 .my-footer {
