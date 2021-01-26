@@ -38,13 +38,13 @@ function App() {
             <li className="nav-item">
               <a href="./portfolio_cv.pdf" className="nav-link text-light">
                 {" "}
-                View CV Online
+                View CV
               </a>
             </li>
             <li>
               <a
                 href="./portfolio_cv.pdf"
-                className="nav-link text-light"
+                className="nav-link text-light d-none d-lg-block"
                 download="Eyüp Sercan UYGUR"
                 id="download"
               >
