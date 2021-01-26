@@ -36,14 +36,14 @@ function App() {
               </Link>
             </li>
             <li className="nav-item">
-              <a href="./CV_ENG_2_.pdf" className="nav-link text-light">
+              <a href="./portfolio_cv.pdf" className="nav-link text-light">
                 {" "}
                 View CV Online
               </a>
             </li>
             <li>
               <a
-                href="./CV_ENG_2_.pdf"
+                href="./portfolio_cv.pdf"
                 className="nav-link text-light"
                 download="Eyüp Sercan UYGUR"
                 id="download"
@@ -55,9 +55,9 @@ function App() {
           </ul>
         </div>
       </nav>
-      <div className="d-flex justify-content-center pt-5">
+      <div className="d-flex justify-content-center pt-4">
         <img
-          src="./Sakallı.JPG"
+          src="./Ben7.JPG"
           alt="me"
           className="rounded rounded-circle my-photo"
         />
@@ -68,7 +68,7 @@ function App() {
       <div className="text-center pt-4">
         <h2 className="text-light">Software Developer</h2>
       </div>
-      <div className="text-center pt-4 col-12 col-lg-8 mx-auto">
+      <div className="text-center pt-3 col-12 col-lg-8 mx-auto">
         <Typewriter
           className="text-light"
           inputStrings={[
@@ -122,9 +122,9 @@ function App() {
                 </a>
               </li>
               <li>
-                <a href="/" className="text-light disabled">
+                <p className="mb-0 text-light disabled">
                   Matlab
-                </a>
+                </p>
               </li>
             </ul>
           </div>
@@ -175,24 +175,24 @@ function App() {
                 </a>
               </li>
               <li>
-                <a href="/" className="text-light disabled">
+                <p className=" mb-0 text-light disabled">
                   Git & GitHub
-                </a>
+                </p>
               </li>
               <li>
-                <a href="/" className="text-light disabled">
+                <p className=" mb-0 text-light disabled">
                   Remote Pair Programming
-                </a>
+                </p>
               </li>
               <li>
-                <a href="/" className="text-light disabled">
+                <p className=" mb-0 text-light disabled">
                   Finite Element Analysis
-                </a>
+                </p>
               </li>
               <li>
-                <a href="/" className="text-light disabled">
+                <p className=" mb-0 text-light disabled">
                   Statistics
-                </a>
+                </p>
               </li>
             </ul>
           </div>

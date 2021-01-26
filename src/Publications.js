@@ -33,14 +33,14 @@ const Publications = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <a href="./CV_ENG_2_.pdf" className="nav-link text-light">
+            <a href="./portfolio_cv.pdf" className="nav-link text-light">
               {" "}
               View CV Online
             </a>
           </li>
           <li>
             <a
-              href="./CV_ENG_2_.pdf"
+              href="./portfolio_cv.pdf"
               className="nav-link text-light"
               download="Eyüp Sercan UYGUR"
               id="download"
