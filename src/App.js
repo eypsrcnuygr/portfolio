@@ -144,12 +144,12 @@ function App() {
                 </a>
               </li>
               <li>
-                <a href="/" target="blank" className="text-light disabled">
+                <a href="https://www.credential.net/b2805b3f-2003-4116-9831-f85855a5ed6e#gs.rq7gyo" target="blank" className="text-light disabled">
                   Rails
                 </a>
               </li>
               <li>
-                <a href="/" target="blank" className="text-light disabled">
+                <a href="https://www.credential.net/b2805b3f-2003-4116-9831-f85855a5ed6e#gs.rq7gyo" target="blank" className="text-light disabled">
                   RSpec
                 </a>
               </li>
