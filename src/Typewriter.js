@@ -9,10 +9,10 @@ export default class Typewriter extends React.Component {
   };
 
   componentDidMount() {
-    this.typeWord(
+    setTimeout(() => this.typeWord(
       this.props.inputStrings[0],
       [].concat(this.props.inputStrings)
-    );
+    ), 1200)
   }
 
   typeWord(word, words) {
