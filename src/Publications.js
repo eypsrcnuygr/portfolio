@@ -56,6 +56,41 @@ const Publications = () => {
       <article className="text-light mb-2 article-3">
         <div className="container">
           <div className="row">
+          <div className="col-xl-8 col-12 heading order-2">
+              <h5>
+                How to Use Rails Backend with React Frontend
+              </h5>
+              <p>
+              Rails is a great tool for writing an app from the bottom to the top.
+               It’s MVC pattern is easy to grasp and can be very useful for separating
+              the concerns. It has a lot of gems on top of each other to make the framework’s
+               writing experience easier. Those gems and their duties is another topic, and I’ll
+                write about them in another article. But when it comes to the frontend, I am not
+                 a big fan of the Rails
+              </p>
+              <div className="d-flex mt-5 py-2 flex-wrap">
+                <p className="mx-2 bg-info rounded labels pt-2 px-2">
+                  Rails
+                </p>
+                <p className="mx-2 bg-info rounded labels pt-2 px-2">Rails API</p>
+                <p className="mx-2 bg-info rounded labels pt-2 px-2">React</p>
+              </div>
+              <div className="order-3">
+                <a
+                  href="https://sercanuygur.medium.com/how-to-use-rails-backend-with-react-frontend-8cc81302eb63"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-light btn btn-success mx-2 mb-4 button-article"
+                >
+                  See The Article
+                </a>
+              </div>
+            </div>
+            <div className="col-xl-4 col-12 order-1 shadow">
+              <img src="/rails.jpeg" alt="puzzle" className="w-100" />
+            </div>
+          </div>
+          <div className="row">
             <div className="col-xl-8 col-12 heading order-2">
               <h5>
                 Teach Yourself How to Work With Bootstrap 4 in Ten Minutes or
