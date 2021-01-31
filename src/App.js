@@ -68,7 +68,7 @@ function App() {
       <div className="text-center pt-4">
         <h2 className="text-light my-h2">Software Developer</h2>
       </div>
-      <div className="text-center pt-3 col-12 col-lg-8 mx-auto">
+      <div className="text-center pt-4 col-12 col-lg-8 mx-auto">
         <Typewriter
           className="text-light"
           inputStrings={[
