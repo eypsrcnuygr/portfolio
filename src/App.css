@@ -19,6 +19,10 @@ body {
   padding-bottom: 10px;
 }
 
+.my-h2 {
+  padding-top: 1%;
+}
+
 p, h1, h2, nav, div {
   font-family: 'Yusei Magic', sans-serif;
 }

@@ -66,7 +66,7 @@ function App() {
         <h1 className="text-light font-weight-bolder">Eyüp Sercan UYGUR</h1>
       </div>
       <div className="text-center pt-4">
-        <h2 className="text-light">Software Developer</h2>
+        <h2 className="text-light my-h2">Software Developer</h2>
       </div>
       <div className="text-center pt-3 col-12 col-lg-8 mx-auto">
         <Typewriter
