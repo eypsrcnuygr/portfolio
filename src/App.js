@@ -57,7 +57,7 @@ function App() {
       </nav>
       <div className="d-flex justify-content-center pt-4">
         <img
-          src="./Ben7.JPG"
+          src="./Ben3son.JPG"
           alt="me"
           className="rounded rounded-circle my-photo"
         />
