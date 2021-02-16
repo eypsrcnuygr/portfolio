@@ -36,14 +36,14 @@ function App() {
               </Link>
             </li>
             <li className="nav-item">
-              <a href="./portfolio_cv.pdf" className="nav-link text-light">
+              <a href="./Eyüp_Sercan_UYGUR_CV.pdf" className="nav-link text-light">
                 {" "}
                 View CV
               </a>
             </li>
             <li>
               <a
-                href="./portfolio_cv.pdf"
+                href="./Eyüp_Sercan_UYGUR_CV.pdf"
                 className="nav-link text-light d-none d-lg-block"
                 download="Eyüp Sercan UYGUR"
                 id="download"
