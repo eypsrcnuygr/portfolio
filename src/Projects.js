@@ -122,7 +122,7 @@ const Projetcs = () => (
             </div>
             <div>
               <a
-                href="https://book-an-appointment-frontend.herokuapp.com/"
+                href="https://www.eycbaby.com.tr/"
                 target="blank"
                 rel="noreferrer"
                 className="text-light btn btn-success mx-2 button-live"
@@ -130,7 +130,7 @@ const Projetcs = () => (
                 Live Link
               </a>
               <a
-                href="https://github.com/eypsrcnuygr/book-an-appointmen-frontend"
+                href="https://github.com/eypsrcnuygr/eyc-frontend-user"
                 target="blank"
                 rel="noreferrer"
                 className="text-light btn btn-primary mx-2 button-github"
