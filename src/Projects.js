@@ -52,12 +52,12 @@ const Projetcs = () => (
         </ul>
       </div>
     </nav>
-    <article className="text-light mb-2 article-3 shadow-lg">
+    <article className="text-light mb-2 article-3">
       <div className="container">
         <div className="row">
           <div className="col-xl-5 col-12">
             <img
-              src="/Screenshot1.png"
+              src="/EASY.png"
               alt="Easy-Pay"
               className="img img-fluid"
             />
@@ -70,12 +70,12 @@ const Projetcs = () => (
               Password.
             </p>
             <div className="d-none d-md-flex py-2 flex-wrap">
-              <p className="mx-2 bg-info rounded labels pt-2 px-2">Ruby</p>
-              <p className="mx-2 bg-info rounded labels pt-2 px-2">Rails</p>
-              <p className="mx-2 bg-info rounded labels pt-2 px-2">Bootstrap</p>
-              <p className="mx-2 bg-info rounded labels pt-2 px-2">RSpec</p>
-              <p className="mx-2 bg-info rounded labels pt-2 px-2">CSS</p>
-              <p className="mx-2 bg-info rounded labels pt-2 px-2">HTML</p>
+              <p className="mx-2 bg-info rounded labels py-1 px-2">Ruby</p>
+              <p className="mx-2 bg-info rounded labels py-1 px-2">Rails</p>
+              <p className="mx-2 bg-info rounded labels py-1 px-2">Bootstrap</p>
+              <p className="mx-2 bg-info rounded labels py-1 px-2">RSpec</p>
+              <p className="mx-2 bg-info rounded labels py-1 px-2">CSS</p>
+              <p className="mx-2 bg-info rounded labels py-1 px-2">HTML</p>
             </div>
             <div>
               <a
@@ -100,27 +100,25 @@ const Projetcs = () => (
       </div>
     </article>
 
-    <article className="text-light mb-2 article-3 shadow-lg">
+    <article className="text-light mb-2 article-3 mt-3">
       <div className="container">
         <div className="row">
           <div className="col-xl-5 col-12">
-            <img src="/Screenshot2.png" alt="Book" className="w-100" />
+            <img src="/EYCSCREENSHOT.png" alt="Book" className="w-100" />
           </div>
           <div className="col-xl-7 col-12 heading d-flex flex-column justify-content-center">
-            <h5>Book an Appointment</h5>
+            <h5>EYC BABY</h5>
             <p className="d-none d-md-block">
-              This is the frontend part of the Final Capstone project on
-              Microverse curriculum. You can sign-up as a teacher and find
-              students for yourself, or you can sign-up as a student and find
-              suitable teachers in your interested areas.
+            This is an ongoing project which is an e-commerce app for baby products. React front-end, rails backend. You can sign-up, and buy the 
+            products that you need.
             </p>
             <div className="d-none d-md-flex py-2 flex-wrap">
-              <p className="mx-2 bg-info rounded labels pt-2 px-2">React</p>
-              <p className="mx-2 bg-info rounded labels pt-2 px-2">Redux</p>
-              <p className="mx-2 bg-info rounded labels pt-2 px-2">Rails</p>
-              <p className="mx-2 bg-info rounded labels pt-2 px-2">Bootstrap</p>
-              <p className="mx-2 bg-info rounded labels pt-2 px-2">SCSS</p>
-              <p className="mx-2 bg-info rounded labels pt-2 px-2">HTML</p>
+              <p className="mx-2 bg-info rounded labels py-1 px-2">React</p>
+              <p className="mx-2 bg-info rounded labels py-1 px-2">Redux</p>
+              <p className="mx-2 bg-info rounded labels py-1 px-2">Rails</p>
+              <p className="mx-2 bg-info rounded labels py-1 px-2">Bootstrap</p>
+              <p className="mx-2 bg-info rounded labels py-1 px-2">CSS</p>
+              <p className="mx-2 bg-info rounded labels py-1 px-2">HTML</p>
             </div>
             <div>
               <a
@@ -145,11 +143,11 @@ const Projetcs = () => (
       </div>
     </article>
 
-    <article className="text-light mb-2 article-3 shadow-lg">
+    <article className="text-light mb-2 article-3 mt-3">
       <div className="container">
         <div className="row h-50">
           <div className="col-xl-5 col-12 h-50">
-            <img src="/Screenshot3.png" alt="Space" className="img-fluid" />
+            <img src="/SPACE.png" alt="Space" className="img-fluid" />
           </div>
           <div className="col-xl-7 col-12 heading d-flex flex-column justify-content-center">
             <h5>Space Shooter Game</h5>
@@ -161,12 +159,12 @@ const Projetcs = () => (
               check the GitHub repo.
             </p>
             <div className="d-none d-md-flex py-2 flex-wrap">
-              <p className="mx-2 bg-info rounded labels pt-2 px-2">
+              <p className="mx-2 bg-info rounded labels py-1 px-2">
                 JavaScript
               </p>
-              <p className="mx-2 bg-info rounded labels pt-2 px-2">Phaser</p>
-              <p className="mx-2 bg-info rounded labels pt-2 px-2">WebPack</p>
-              <p className="mx-2 bg-info rounded labels pt-2 px-2">Babel</p>
+              <p className="mx-2 bg-info rounded labels py-1 px-2">Phaser</p>
+              <p className="mx-2 bg-info rounded labels py-1 px-2">WebPack</p>
+              <p className="mx-2 bg-info rounded labels py-1 px-2">Babel</p>
             </div>
             <div>
               <a
