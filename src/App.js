@@ -1,7 +1,6 @@
 import "./App.css";
 import Typewriter from "./Typewriter";
 import { Link } from "react-router-dom";
-import { Document, Page } from 'react-pdf';
 
 function App() {
   return (
