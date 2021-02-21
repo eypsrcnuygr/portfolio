@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { HashRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -11,13 +11,13 @@ import Publications from './Publications';
 
 ReactDOM.render(
   <React.StrictMode>
-     <HashRouter>
+     <BrowserRouter>
     <Switch>
       <Route path="/" exact render={props => <App {...props} />} />
       <Route path="/projects" exact render={props => <Projetcs {...props} />} />
       <Route path="/publications" exact render={props => <Publications {...props} />} />
     </Switch>
-  </HashRouter>
+  </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
